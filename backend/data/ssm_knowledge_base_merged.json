@@ -1,0 +1,2382 @@
+{
+  "ssm_knowledge_base_final": [
+    {
+      "document_id": "company_profile_roc_",
+      "document_name": "Company Profile (ROC)",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "General",
+      "document_type": "profile",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "verification",
+        "due_diligence"
+      ],
+      "keywords": [
+        "company",
+        "profile",
+        "(roc)"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "company_profile_roc__nonctc",
+          "type": "Non-CTC",
+          "price": "RM15.40",
+          "price_numeric": 15.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Basic Corporate Information (Name, Registration Number, Incorporation Date, Status)"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "Registered Address and Business Address"
+            },
+            {
+              "page_number": 3,
+              "content_summary": "Details of Share Capital (Issued, Paid-up)"
+            },
+            {
+              "page_number": 4,
+              "content_summary": "List of Current Directors, Officers, and Company Secretary"
+            },
+            {
+              "page_number": 5,
+              "content_summary": "List of Shareholders and Financial Indicators summary"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/company_profile.pdf"
+        },
+        {
+          "variant_id": "company_profile_roc__ctc",
+          "type": "CTC",
+          "price": "RM30.80",
+          "price_numeric": 30.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Basic Corporate Information (Name, Registration Number, Incorporation Date, Status)"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "Registered Address and Business Address"
+            },
+            {
+              "page_number": 3,
+              "content_summary": "Details of Share Capital (Issued, Paid-up)"
+            },
+            {
+              "page_number": 4,
+              "content_summary": "List of Current Directors, Officers, and Company Secretary"
+            },
+            {
+              "page_number": 5,
+              "content_summary": "List of Shareholders and Financial Indicators summary"
+            },
+            {
+              "page_number": 6,
+              "content_summary": "Certified True Copy Official Stamp and Digital Signature"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/company_profile.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "company_charges",
+      "document_name": "Company Charges",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "General",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "credit_risk"
+      ],
+      "keywords": [
+        "company",
+        "charges"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "company_charges_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "List of Registered Charges (Charge Number, Creation Date, Amount)"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "Details of Chargee (Bank/Lender Information) and Release Status"
+            }
+          ],
+          "sample_url": "https://www.ssm-einfo.my/public/assets/sample/Company_Charges.pdf"
+        },
+        {
+          "variant_id": "company_charges_ctc",
+          "type": "CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "List of Registered Charges (Charge Number, Creation Date, Amount)"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "Details of Chargee (Bank/Lender Information) and Release Status"
+            },
+            {
+              "page_number": 3,
+              "content_summary": "Certified True Copy Official Stamp and Digital Signature"
+            }
+          ],
+          "sample_url": "https://www.ssm-einfo.my/public/assets/sample/Company_Charges.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "attestation_of_company_good_standing_acgs_",
+      "document_name": "Attestation of Company Good Standing (ACGS)",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "General",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "attestation",
+        "of",
+        "company",
+        "good",
+        "standing",
+        "(acgs)"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "attestation_of_company_good_standing_acgs__nonctc",
+          "type": "Non-CTC",
+          "price": "RM105.40",
+          "price_numeric": 105.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Official declaration of Good Standing, Compliance Status, and Registrar's Attestation"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/acgs.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "audit_firm_profile",
+      "document_name": "Audit Firm Profile",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "General",
+      "document_type": "profile",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "verification",
+        "due_diligence"
+      ],
+      "keywords": [
+        "audit",
+        "firm",
+        "profile"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "audit_firm_profile_nonctc",
+          "type": "Non-CTC",
+          "price": "RM15.40",
+          "price_numeric": 15.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Audit Firm Registration Details, Address, and Contact Info"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "List of Approved Partners and Auditors"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/audit_firm_profile.pdf"
+        },
+        {
+          "variant_id": "audit_firm_profile_ctc",
+          "type": "CTC",
+          "price": "RM30.80",
+          "price_numeric": 30.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Audit Firm Registration Details, Address, and Contact Info"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "List of Approved Partners and Auditors"
+            },
+            {
+              "page_number": 3,
+              "content_summary": "Certified True Copy Official Stamp and Digital Signature"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/audit_firm_profile.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "financial_historical_comparison",
+      "document_name": "Financial Historical Comparison",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "General",
+      "document_type": "financial",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "financial_analysis"
+      ],
+      "keywords": [
+        "financial",
+        "historical",
+        "comparison"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "financial_historical_comparison_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Historical Revenue, Profit/Loss, and Asset trends overview"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/financial.pdf"
+        },
+        {
+          "variant_id": "financial_historical_comparison_ctc",
+          "type": "CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Historical Revenue, Profit/Loss, and Asset trends overview"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "Certified True Copy Official Stamp and Digital Signature"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/financial.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "shareholder_listing_and_analysis",
+      "document_name": "Shareholder Listing And Analysis",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "General",
+      "document_type": "listing",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "shareholder",
+        "listing",
+        "and",
+        "analysis"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "shareholder_listing_and_analysis_nonctc",
+          "type": "Non-CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Complete list of shareholders and respective share unit allocations"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "Analysis of shareholding structure (e.g., majority vs minority stakes)"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "financial_comparison_2_years",
+      "document_name": "Financial Comparison 2 Years",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "Financial Comparison",
+      "document_type": "financial",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "financial_analysis"
+      ],
+      "keywords": [
+        "financial",
+        "comparison",
+        "2",
+        "years"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "financial_comparison_2_years_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "2-Year Balance Sheet Statement Comparison"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "2-Year Income Statement (Profit & Loss) Comparison"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/financial.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "financial_comparison_3_years",
+      "document_name": "Financial Comparison 3 Years",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "Financial Comparison",
+      "document_type": "financial",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "financial_analysis"
+      ],
+      "keywords": [
+        "financial",
+        "comparison",
+        "3",
+        "years"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "financial_comparison_3_years_nonctc",
+          "type": "Non-CTC",
+          "price": "RM35.40",
+          "price_numeric": 35.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "3-Year Balance Sheet Statement Comparison"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "3-Year Income Statement (Profit & Loss) Comparison"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/financial.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "financial_comparison_5_years",
+      "document_name": "Financial Comparison 5 Years",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "Financial Comparison",
+      "document_type": "financial",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "financial_analysis"
+      ],
+      "keywords": [
+        "financial",
+        "comparison",
+        "5",
+        "years"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "financial_comparison_5_years_nonctc",
+          "type": "Non-CTC",
+          "price": "RM55.40",
+          "price_numeric": 55.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "5-Year Balance Sheet Statement Comparison"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "5-Year Income Statement (Profit & Loss) Comparison"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/financial.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "financial_comparison_10_years",
+      "document_name": "Financial Comparison 10 Years",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "Financial Comparison",
+      "document_type": "financial",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "financial_analysis"
+      ],
+      "keywords": [
+        "financial",
+        "comparison",
+        "10",
+        "years"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "financial_comparison_10_years_nonctc",
+          "type": "Non-CTC",
+          "price": "RM105.40",
+          "price_numeric": 105.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "10-Year Balance Sheet Statement Comparison (Part 1)"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "10-Year Balance Sheet Statement Comparison (Part 2)"
+            },
+            {
+              "page_number": 3,
+              "content_summary": "10-Year Income Statement (Profit & Loss) Comparison"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/financial.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "certificate_of_incorporation_of_private_company",
+      "document_name": "Certificate of Incorporation of Private Company",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "Certificate",
+      "document_type": "certificate",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "legal_proof"
+      ],
+      "keywords": [
+        "certificate",
+        "of",
+        "incorporation",
+        "of",
+        "private",
+        "company"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "certificate_of_incorporation_of_private_company_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Official Certificate Details (Section 17/Form 9 equivalent)"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/certificate.pdf"
+        },
+        {
+          "variant_id": "certificate_of_incorporation_of_private_company_ctc",
+          "type": "CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Official Certificate Details (Section 17/Form 9 equivalent)"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "Certified True Copy Official Stamp and Digital Signature"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/certificate.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "certificate_of_incorporation_of_public_company",
+      "document_name": "Certificate of Incorporation of Public Company",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "Certificate",
+      "document_type": "certificate",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "legal_proof"
+      ],
+      "keywords": [
+        "certificate",
+        "of",
+        "incorporation",
+        "of",
+        "public",
+        "company"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "certificate_of_incorporation_of_public_company_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Official Public Company Incorporation Certificate"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/certificate.pdf"
+        },
+        {
+          "variant_id": "certificate_of_incorporation_of_public_company_ctc",
+          "type": "CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Official Public Company Incorporation Certificate"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "Certified True Copy Official Stamp and Digital Signature"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/certificate.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "certificate_of_incorporation_of_foreign_company",
+      "document_name": "Certificate of Incorporation of Foreign Company",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "Certificate",
+      "document_type": "certificate",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "legal_proof"
+      ],
+      "keywords": [
+        "certificate",
+        "of",
+        "incorporation",
+        "of",
+        "foreign",
+        "company"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "certificate_of_incorporation_of_foreign_company_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Official Foreign Branch Registration Certificate"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/certificate.pdf"
+        },
+        {
+          "variant_id": "certificate_of_incorporation_of_foreign_company_ctc",
+          "type": "CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Official Foreign Branch Registration Certificate"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "Certified True Copy Official Stamp and Digital Signature"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/certificate.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "certificate_of_incorporation_of_change_of_name_of_company",
+      "document_name": "Certificate of Incorporation of Change of Name of Company",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "Certificate",
+      "document_type": "certificate",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "legal_proof"
+      ],
+      "keywords": [
+        "certificate",
+        "of",
+        "incorporation",
+        "of",
+        "change",
+        "of",
+        "name",
+        "of",
+        "company"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "certificate_of_incorporation_of_change_of_name_of_company_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Old Name, New Name, and Date of Change confirmation (Form 13 equivalent)"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/certificate.pdf"
+        },
+        {
+          "variant_id": "certificate_of_incorporation_of_change_of_name_of_company_ctc",
+          "type": "CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Old Name, New Name, and Date of Change confirmation (Form 13 equivalent)"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "Certified True Copy Official Stamp and Digital Signature"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/certificate.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "certificate_of_company_conversion",
+      "document_name": "Certificate of Company Conversion",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "Certificate",
+      "document_type": "certificate",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "legal_proof"
+      ],
+      "keywords": [
+        "certificate",
+        "of",
+        "company",
+        "conversion"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "certificate_of_company_conversion_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Conversion Details and Effective Date"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/certificate.pdf"
+        },
+        {
+          "variant_id": "certificate_of_company_conversion_ctc",
+          "type": "CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Conversion Details and Effective Date"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "Certified True Copy Official Stamp and Digital Signature"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/certificate.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "particulars_of_registered_address",
+      "document_name": "Particulars of Registered Address",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "Particulars",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "particulars",
+        "of",
+        "registered",
+        "address"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "particulars_of_registered_address_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Current and Historical Registered Address Data"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        },
+        {
+          "variant_id": "particulars_of_registered_address_ctc",
+          "type": "CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Address Data with Certification Stamp"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "particular_of_directors_officers",
+      "document_name": "Particular of Directors/Officers",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "Particulars",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "background_check"
+      ],
+      "keywords": [
+        "particular",
+        "of",
+        "directors/officers"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "particular_of_directors_officers_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Names, IC/Passport, and Appointment Dates of Directors/Officers"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        },
+        {
+          "variant_id": "particular_of_directors_officers_ctc",
+          "type": "CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Directors Data with Certification Stamp"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "particular_of_shareholders",
+      "document_name": "Particular of Shareholders",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "Particulars",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "particular",
+        "of",
+        "shareholders"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "particular_of_shareholders_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "List of Shareholders and Shareholding Quantities"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        },
+        {
+          "variant_id": "particular_of_shareholders_ctc",
+          "type": "CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Shareholders Data with Certification Stamp"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "particular_of_share_capital",
+      "document_name": "Particular of Share Capital",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "Particulars",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "particular",
+        "of",
+        "share",
+        "capital"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "particular_of_share_capital_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Issued, Paid-up Capital, and Class of Shares"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        },
+        {
+          "variant_id": "particular_of_share_capital_ctc",
+          "type": "CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Share Capital Data with Certification Stamp"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "particular_of_company_secretary",
+      "document_name": "Particular of Company Secretary",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "Particulars",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "particular",
+        "of",
+        "company",
+        "secretary"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "particular_of_company_secretary_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Secretary Names, License Numbers, and Appointment Dates"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        },
+        {
+          "variant_id": "particular_of_company_secretary_ctc",
+          "type": "CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Company Secretary Data with Certification Stamp"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "particulars_of_change_of_company_name",
+      "document_name": "Particulars of Change of Company Name",
+      "division": "COMPANY INFORMATION",
+      "subcategory": "Particulars",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "particulars",
+        "of",
+        "change",
+        "of",
+        "company",
+        "name"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "particulars_of_change_of_company_name_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Chronological history of registered company names"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        },
+        {
+          "variant_id": "particulars_of_change_of_company_name_ctc",
+          "type": "CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Name Change Data with Certification Stamp"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "business_profile_rob_",
+      "document_name": "Business Profile (ROB)",
+      "division": "BUSINESS INFORMATION",
+      "subcategory": "General",
+      "document_type": "profile",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "verification",
+        "due_diligence"
+      ],
+      "keywords": [
+        "business",
+        "profile",
+        "(rob)"
+      ],
+      "entities": [
+        "business_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "business_profile_rob__nonctc",
+          "type": "Non-CTC",
+          "price": "RM15.40",
+          "price_numeric": 15.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Business Name, Registration No, Principal Nature of Business, and Status"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "Owner/Partner Information"
+            },
+            {
+              "page_number": 3,
+              "content_summary": "Registered Branch Information"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/business_profile.pdf"
+        },
+        {
+          "variant_id": "business_profile_rob__ctc",
+          "type": "CTC",
+          "price": "RM25.80",
+          "price_numeric": 25.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Business Name, Registration No, Principal Nature of Business, and Status"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "Owner/Partner Information"
+            },
+            {
+              "page_number": 3,
+              "content_summary": "Registered Branch Information"
+            },
+            {
+              "page_number": 4,
+              "content_summary": "Certified True Copy Official Stamp and Digital Signature"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/business_profile.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "business_certificate",
+      "document_name": "Business Certificate",
+      "division": "BUSINESS INFORMATION",
+      "subcategory": "General",
+      "document_type": "certificate",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "legal_proof"
+      ],
+      "keywords": [
+        "business",
+        "certificate"
+      ],
+      "entities": [
+        "business_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "business_certificate_ctc",
+          "type": "CTC",
+          "price": "RM15.40",
+          "price_numeric": 15.4,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Official Business Certificate Form D with Certification Stamp"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/certificate.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "business_expiry_confirmation_letter",
+      "document_name": "Business Expiry Confirmation Letter",
+      "division": "BUSINESS INFORMATION",
+      "subcategory": "General",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "business",
+        "expiry",
+        "confirmation",
+        "letter"
+      ],
+      "entities": [
+        "business_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "business_expiry_confirmation_letter_nonctc",
+          "type": "Non-CTC",
+          "price": "RM15.40",
+          "price_numeric": 15.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Confirmation of business validity period and expiry"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        },
+        {
+          "variant_id": "business_expiry_confirmation_letter_ctc",
+          "type": "CTC",
+          "price": "RM20.40",
+          "price_numeric": 20.4,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Confirmation of business validity period and expiry"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "Certified True Copy Official Stamp and Digital Signature"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "business_re_register_confirmation_letter_brecle_",
+      "document_name": "Business Re-Register Confirmation Letter (BRECLE)",
+      "division": "BUSINESS INFORMATION",
+      "subcategory": "General",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "business",
+        "re-register",
+        "confirmation",
+        "letter",
+        "(brecle)"
+      ],
+      "entities": [
+        "business_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "business_re_register_confirmation_letter_brecle__nonctc",
+          "type": "Non-CTC",
+          "price": "RM15.40",
+          "price_numeric": 15.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Re-registration details and new validity terms"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        },
+        {
+          "variant_id": "business_re_register_confirmation_letter_brecle__ctc",
+          "type": "CTC",
+          "price": "RM25.80",
+          "price_numeric": 25.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Re-registration details and new validity terms"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "Certified True Copy Official Stamp and Digital Signature"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "copy_of_business_statutory_document_image",
+      "document_name": "Copy of Business Statutory Document Image",
+      "division": "BUSINESS INFORMATION",
+      "subcategory": "General",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "copy",
+        "of",
+        "business",
+        "statutory",
+        "document",
+        "image"
+      ],
+      "entities": [
+        "business_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "copy_of_business_statutory_document_image_nonctc",
+          "type": "Non-CTC",
+          "price": "RM15.40",
+          "price_numeric": 15.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Scanned copy of requested statutory form (e.g., Form A, B, C)"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        },
+        {
+          "variant_id": "copy_of_business_statutory_document_image_ctc",
+          "type": "CTC",
+          "price": "RM25.80",
+          "price_numeric": 25.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Scanned copy of requested statutory form"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "Certified True Copy Official Stamp and Digital Signature"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "document_listing",
+      "document_name": "Document Listing",
+      "division": "DOCUMENT FORM IMAGES",
+      "subcategory": "General",
+      "document_type": "listing",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "document",
+        "listing"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "document_listing_nonctc",
+          "type": "Non-CTC",
+          "price": "RM15.40",
+          "price_numeric": 15.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Tabular list of Form Names, Lodgement Dates, and Document IDs"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "document_and_form_image",
+      "document_name": "Document and Form Image",
+      "division": "DOCUMENT FORM IMAGES",
+      "subcategory": "General",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "document",
+        "and",
+        "form",
+        "image"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "document_and_form_image_nonctc",
+          "type": "Non-CTC",
+          "price": "RM15.40",
+          "price_numeric": 15.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "High-resolution scanned image of the requested lodgement form"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        },
+        {
+          "variant_id": "document_and_form_image_ctc",
+          "type": "CTC",
+          "price": "RM30.80",
+          "price_numeric": 30.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "High-resolution scanned image of the requested lodgement form"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "Certified True Copy Official Stamp and Digital Signature"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "company_listing_processing_fee_",
+      "document_name": "Company Listing (Processing Fee)",
+      "division": "CUSTOMIZE LIST",
+      "subcategory": "Company Listing",
+      "document_type": "listing",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "company",
+        "listing",
+        "(processing",
+        "fee)"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "company_listing_processing_fee__standard",
+          "type": "Standard",
+          "price": "RM23.24",
+          "price_numeric": 23.24,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Payment Receipt / Invoice for Processing Fee"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "company_listing_documents_and_download_a",
+      "document_name": "Company Listing Documents and Download A",
+      "division": "CUSTOMIZE LIST",
+      "subcategory": "Company Listing",
+      "document_type": "listing",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "company",
+        "listing",
+        "documents",
+        "and",
+        "download",
+        "a"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "company_listing_documents_and_download_a_digitalextract",
+          "type": "Digital Extract",
+          "price": "RM4.08/PER COMPANY",
+          "price_numeric": 4.08,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "CSV/Excel Sheet containing targeted company dataset A"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "company_listing_documents_and_download_b",
+      "document_name": "Company Listing Documents and Download B",
+      "division": "CUSTOMIZE LIST",
+      "subcategory": "Company Listing",
+      "document_type": "listing",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "company",
+        "listing",
+        "documents",
+        "and",
+        "download",
+        "b"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "company_listing_documents_and_download_b_digitalextract",
+          "type": "Digital Extract",
+          "price": "RM4.08/PER COMPANY",
+          "price_numeric": 4.08,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "CSV/Excel Sheet containing targeted company dataset B"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "company_listing_documents_and_download_c",
+      "document_name": "Company Listing Documents and Download C",
+      "division": "CUSTOMIZE LIST",
+      "subcategory": "Company Listing",
+      "document_type": "listing",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "company",
+        "listing",
+        "documents",
+        "and",
+        "download",
+        "c"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "company_listing_documents_and_download_c_digitalextract",
+          "type": "Digital Extract",
+          "price": "RM4.08/PER COMPANY",
+          "price_numeric": 4.08,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "CSV/Excel Sheet containing targeted company dataset C"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "company_listing_documents_and_download_d",
+      "document_name": "Company Listing Documents and Download D",
+      "division": "CUSTOMIZE LIST",
+      "subcategory": "Company Listing",
+      "document_type": "listing",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "company",
+        "listing",
+        "documents",
+        "and",
+        "download",
+        "d"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "company_listing_documents_and_download_d_digitalextract",
+          "type": "Digital Extract",
+          "price": "RM4.08/PER COMPANY",
+          "price_numeric": 4.08,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "CSV/Excel Sheet containing targeted company dataset D"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "processing_fee",
+      "document_name": "Processing Fee",
+      "division": "CUSTOMIZE LIST",
+      "subcategory": "Corporate Insight Listing",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "processing",
+        "fee"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "processing_fee_standard",
+          "type": "Standard",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Payment Receipt / Invoice for Corporate Insight Processing Fee"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "every_company_information",
+      "document_name": "Every company information",
+      "division": "CUSTOMIZE LIST",
+      "subcategory": "Corporate Insight Listing",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "every",
+        "company",
+        "information"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "every_company_information_digitalextract",
+          "type": "Digital Extract",
+          "price": "RM17.40/PER COMPANY",
+          "price_numeric": 17.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Comprehensive Corporate Insight Excel Export"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "document_processing_service_charge",
+      "document_name": "Document Processing Service Charge",
+      "division": "COMPANY SECRETARY INFORMATION DATA (CSID)",
+      "subcategory": "General",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "document",
+        "processing",
+        "service",
+        "charge"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "document_processing_service_charge_standard",
+          "type": "Standard",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Payment Receipt / Invoice for Service Charge"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "document_download",
+      "document_name": "Document & Download",
+      "division": "COMPANY SECRETARY INFORMATION DATA (CSID)",
+      "subcategory": "General",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "document",
+        "&",
+        "download"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "document_download_digitalextract",
+          "type": "Digital Extract",
+          "price": "RM6.00/PER COMPANY",
+          "price_numeric": 6,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "CSID Database extract in spreadsheet format"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "llp_profile",
+      "document_name": "LLP Profile",
+      "division": "LIMITED LIABILITY PARTNERSHIP (LLP)",
+      "subcategory": "General",
+      "document_type": "profile",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "verification",
+        "due_diligence"
+      ],
+      "keywords": [
+        "llp",
+        "profile"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "llp_profile_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "LLP Registration Number, Name, Status, and Registered Address"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "List of Compliance Officers and General Partners"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        },
+        {
+          "variant_id": "llp_profile_ctc",
+          "type": "CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "LLP Registration Number, Name, Status, and Registered Address"
+            },
+            {
+              "page_number": 2,
+              "content_summary": "List of Compliance Officers and General Partners"
+            },
+            {
+              "page_number": 3,
+              "content_summary": "Certified True Copy Official Stamp and Digital Signature"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "certificate_of_registration",
+      "document_name": "Certificate of Registration",
+      "division": "LIMITED LIABILITY PARTNERSHIP (LLP)",
+      "subcategory": "General",
+      "document_type": "certificate",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "legal_proof"
+      ],
+      "keywords": [
+        "certificate",
+        "of",
+        "registration"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "certificate_of_registration_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "LLP Registration Details and Date"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/certificate.pdf"
+        },
+        {
+          "variant_id": "certificate_of_registration_ctc",
+          "type": "CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Registration Details with CTC Stamp"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/certificate.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "certificate_of_change_of_llp_name",
+      "document_name": "Certificate of Change of LLP Name",
+      "division": "LIMITED LIABILITY PARTNERSHIP (LLP)",
+      "subcategory": "General",
+      "document_type": "certificate",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "legal_proof"
+      ],
+      "keywords": [
+        "certificate",
+        "of",
+        "change",
+        "of",
+        "llp",
+        "name"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "certificate_of_change_of_llp_name_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Old Name, New Name, and Effective Date"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/certificate.pdf"
+        },
+        {
+          "variant_id": "certificate_of_change_of_llp_name_ctc",
+          "type": "CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Name Change Details with CTC Stamp"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/certificate.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "attestation_of_llp_good_standing_allpgs_",
+      "document_name": "Attestation of LLP Good Standing (ALLPGS)",
+      "division": "LIMITED LIABILITY PARTNERSHIP (LLP)",
+      "subcategory": "General",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "attestation",
+        "of",
+        "llp",
+        "good",
+        "standing",
+        "(allpgs)"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "attestation_of_llp_good_standing_allpgs__nonctc",
+          "type": "Non-CTC",
+          "price": "RM55.40",
+          "price_numeric": 55.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Good Standing Attestation Document"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "certificate_of_conversion",
+      "document_name": "Certificate of Conversion",
+      "division": "LIMITED LIABILITY PARTNERSHIP (LLP)",
+      "subcategory": "General",
+      "document_type": "certificate",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "legal_proof"
+      ],
+      "keywords": [
+        "certificate",
+        "of",
+        "conversion"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "certificate_of_conversion_nonctc",
+          "type": "Non-CTC",
+          "price": "RM25.40",
+          "price_numeric": 25.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Conversion history and effective date"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/certificate.pdf"
+        },
+        {
+          "variant_id": "certificate_of_conversion_ctc",
+          "type": "CTC",
+          "price": "RM40.80",
+          "price_numeric": 40.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Conversion history with CTC Stamp"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/certificate.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "listing",
+      "document_name": "Listing",
+      "division": "LIMITED LIABILITY PARTNERSHIP (LLP)",
+      "subcategory": "Copy of LLP Statutory Document Image",
+      "document_type": "listing",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "listing"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "listing_standard",
+          "type": "Standard",
+          "price": "RM15.40",
+          "price_numeric": 15.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Index of Lodged LLP Documents"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "doc_download",
+      "document_name": "Doc download",
+      "division": "LIMITED LIABILITY PARTNERSHIP (LLP)",
+      "subcategory": "Copy of LLP Statutory Document Image",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "doc",
+        "download"
+      ],
+      "entities": [
+        "company_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "doc_download_nonctc",
+          "type": "Non-CTC",
+          "price": "RM10.40",
+          "price_numeric": 10.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Scanned LLP form image"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        },
+        {
+          "variant_id": "doc_download_ctc",
+          "type": "CTC",
+          "price": "RM25.80",
+          "price_numeric": 25.8,
+          "currency": "MYR",
+          "is_certified": true,
+          "legal_validity": "Official/legal use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Scanned LLP form image with CTC Stamp"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "director",
+      "document_name": "Director",
+      "division": "PERSONAL INVOLVEMENT INFORMATION",
+      "subcategory": "General",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "background_check"
+      ],
+      "keywords": [
+        "director"
+      ],
+      "entities": [
+        "personal_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "director_nonctc",
+          "type": "Non-CTC",
+          "price": "RM55.40",
+          "price_numeric": 55.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Personal Details and Cross-referenced list of Directorships"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "shareholder",
+      "document_name": "Shareholder",
+      "division": "PERSONAL INVOLVEMENT INFORMATION",
+      "subcategory": "General",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "shareholder"
+      ],
+      "entities": [
+        "personal_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "shareholder_nonctc",
+          "type": "Non-CTC",
+          "price": "RM55.40",
+          "price_numeric": 55.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Personal Details and Cross-referenced list of Shareholdings"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "company_secretary",
+      "document_name": "Company Secretary",
+      "division": "PERSONAL INVOLVEMENT INFORMATION",
+      "subcategory": "General",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "company",
+        "secretary"
+      ],
+      "entities": [
+        "personal_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "company_secretary_nonctc",
+          "type": "Non-CTC",
+          "price": "RM55.40",
+          "price_numeric": 55.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Secretary Details and Associated Companies"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "auditor",
+      "document_name": "Auditor",
+      "division": "PERSONAL INVOLVEMENT INFORMATION",
+      "subcategory": "General",
+      "document_type": "extract",
+      "confidence_weight": 0.9,
+      "use_cases": [
+        "general_use"
+      ],
+      "keywords": [
+        "auditor"
+      ],
+      "entities": [
+        "personal_entity"
+      ],
+      "variants": [
+        {
+          "variant_id": "auditor_nonctc",
+          "type": "Non-CTC",
+          "price": "RM55.40",
+          "price_numeric": 55.4,
+          "currency": "MYR",
+          "is_certified": false,
+          "legal_validity": "Informational use",
+          "pages": [
+            {
+              "page_number": 1,
+              "content_summary": "Auditor Registration Info and Audited Entities List"
+            }
+          ],
+          "sample_url": "/static/sample_pdfs/default.pdf"
+        }
+      ]
+    }
+  ]
+}

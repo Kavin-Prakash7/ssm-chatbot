@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SSM eInfo Checkout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body class="checkout-page">
+    <div class="page checkout-wrapper">
+      <header class="top-nav checkout-nav">
+        <div class="brand">
+          <span class="brand-dot"></span>
+          <div>
+            <h1>SSM eInfo</h1>
+            <p>Secure document checkout</p>
+          </div>
+        </div>
+        <nav class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#smart-search">Search</a>
+          <a href="/#assistant">Assistant</a>
+          <span class="nav-cart">Cart <span id="checkout-cart-count">0</span></span>
+        </nav>
+        <button class="nav-browse-btn" id="checkout-back">Continue Browsing</button>
+      </header>
+
+      <main class="checkout-main">
+        <section class="checkout-left">
+          <div class="checkout-card">
+            <div class="checkout-title">
+              <h2>Checkout</h2>
+              <p>Review your selected documents before completing payment.</p>
+            </div>
+            <div class="checkout-items" id="checkout-items"></div>
+          </div>
+        </section>
+        <aside class="checkout-right">
+          <div class="checkout-summary">
+            <h3>Pricing Summary</h3>
+            <div class="summary-row">
+              <span>Subtotal</span>
+              <strong id="checkout-subtotal">RM 0</strong>
+            </div>
+            <div class="summary-row">
+              <span>Service fee</span>
+              <strong id="checkout-fee">RM 0</strong>
+            </div>
+            <div class="summary-row total">
+              <span>Total</span>
+              <strong id="checkout-total">RM 0</strong>
+            </div>
+            <div class="payment-methods">
+              <p>Payment Method</p>
+              <label class="payment-option">
+                <input type="radio" name="payment" value="ewallet" checked />
+                eWallet
+              </label>
+              <label class="payment-option">
+                <input type="radio" name="payment" value="card" />
+                Credit / Debit Card
+              </label>
+              <label class="payment-option">
+                <input type="radio" name="payment" value="fpx" />
+                FPX Online Banking
+              </label>
+            </div>
+            <button class="primary-checkout-btn" id="checkout-pay">Continue Payment</button>
+            <button class="secondary-checkout-btn" id="checkout-continue">Continue Browsing</button>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <div class="checkout-success" id="checkout-success">
+      <div class="success-card">
+        <span class="success-pill">Payment Success</span>
+        <h3>Checkout complete.</h3>
+        <p>Your receipt is confirmed and document access is ready.</p>
+        <button class="primary" id="checkout-return">Return Home</button>
+      </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/checkout.js') }}"></script>
+  </body>
+</html>

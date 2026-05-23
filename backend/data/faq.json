@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What is the difference between CTC and Non-CTC documents?",
+    "answer": "CTC (Certified True Copy) is digitally signed and verified by the Registrar, making it legally admissible in court and accepted by banks. Non-CTC is for personal reference and information only."
+  },
+  {
+    "question": "Which document is required to open a corporate bank account in Malaysia?",
+    "answer": "Banks typically require a CTC version of the Company Profile and the Certificate of Incorporation (Form 9 or Section 17) to verify the company's legal existence and directorship."
+  },
+  {
+    "question": "How can I check if a company is still active or has been dissolved?",
+    "answer": "You can purchase a 'Company Profile' from SSM e-Info. It contains the current status (e.g., Existing, Dissolved, Winding Up) and the latest registered information of the entity."
+  },
+  {
+    "question": "What information is included in a Company Profile?",
+    "answer": "It provides the company name, registration number, incorporation date, registered office address, nature of business, list of directors, shareholders, and summarized financial information."
+  },
+  {
+    "question": "What does 'Company Charges' refer to in the document list?",
+    "answer": "This document lists the security interests or charges created by the company in favor of banks or financial institutions, typically for loans or credit facilities."
+  },
+  {
+    "question": "Can I search for a company using an old 5 or 6-digit registration number?",
+    "answer": "Yes, the SSM e-Info portal allows searches using both the old registration format and the new 12-digit format introduced in 2019."
+  },
+  {
+    "question": "What is the difference between a 'Business' (ROB) and a 'Company' (ROC)?",
+    "answer": "A 'Business' refers to sole proprietorships or partnerships registered under ROB. A 'Company' refers to an entity (Sdn Bhd or Bhd) incorporated under the Companies Act (ROC)."
+  },
+  {
+    "question": "How do I verify a director's involvement in multiple companies?",
+    "answer": "You can purchase a 'Register of Directors' or use the 'Directorship Search' feature to see all active and past positions held by an individual across different registered entities."
+  },
+  {
+    "question": "Why is the price of CTC documents higher than Non-CTC?",
+    "answer": "The higher price accounts for the digital certification process, the secure QR code verification, and the official status granted by the Companies Commission of Malaysia."
+  },
+  {
+    "question": "How long will the purchased document be available for download?",
+    "answer": "Once purchased, documents are typically available in your 'Transaction History' for download for 7 to 14 days, after which the link will expire."
+  },
+  {
+    "question": "I paid for a document but didn't receive the PDF. What should I do?",
+    "answer": "Check your 'Transaction History' on the portal first. If the status is 'Paid' but no link is available, contact SSM e-Info support with your transaction ID for manual retrieval."
+  },
+  {
+    "question": "What is an Attestation of Company Good Standing (ACGS)?",
+    "answer": "ACGS is an official document confirming that a company has complied with the filing requirements of the Companies Act 2016 and is currently in existence on the register."
+  },
+  {
+    "question": "Can I buy a document for a company that I do not own?",
+    "answer": "Yes. SSM records are public information. Anyone can purchase documents for any registered company or business upon payment of the prescribed fee."
+  },
+  {
+    "question": "What is included in the 'Financial Comparison' document?",
+    "answer": "This document provides a side-by-side comparison of a company's financial data (Balance Sheet and Profit & Loss) for the last two or three financial years."
+  },
+  {
+    "question": "Does a Business Profile show the owner's home address?",
+    "answer": "A Business Profile for a sole proprietorship or partnership typically shows the owner's residential address as registered with SSM."
+  },
+  {
+    "question": "What is a Limited Liability Partnership (LLP)?",
+    "answer": "An LLP is a hybrid business vehicle that combines the characteristics of a company (limited liability) and a conventional partnership (flexibility in internal management)."
+  },
+  {
+    "question": "Are documents purchased from SSM e-Info accepted for visa applications?",
+    "answer": "Generally, yes, but most embassies require the CTC (Certified True Copy) version to ensure the document is authentic and currently valid."
+  },
+  {
+    "question": "How can I check if a business has been terminated?",
+    "answer": "You can search for the business name. If it has been closed, the status will show 'TERMINATED'. You can also purchase the 'Business Profile' for the official termination date."
+  },
+  {
+    "question": "What are 'Image Documents' in the e-Info list?",
+    "answer": "Image Documents are scanned copies of original forms and statutory documents (e.g., Form 24, Form 49, Annual Returns) filed manually by the company over the years."
+  },
+  {
+    "question": "Can I get a refund if I accidentally bought the wrong company's profile?",
+    "answer": "No. All transactions on the SSM e-Info portal are final. Users are advised to verify the registration number and company name before completing the payment."
+  },
+  {
+    "question": "How do I know if a CTC document is genuine?",
+    "answer": "Every CTC document features a unique QR code. You can scan this code using the 'SSM DCTC' mobile app to verify its authenticity against SSM's records."
+  },
+  {
+    "question": "Which document shows the specific business activities of a company?",
+    "answer": "The 'Company Profile' or 'Business Profile' includes a 'Nature of Business' section describing the primary activities the entity is registered to perform."
+  },
+  {
+    "question": "Can I search for a company using only the director's IC number?",
+    "answer": "The standard search is by Company Name or Registration Number. However, certain advanced search modules allow directorship searches via IC/Passport number for a specific fee."
+  },
+  {
+    "question": "What should I do if the document I downloaded is corrupted or blank?",
+    "answer": "Ensure you are using a standard PDF reader like Adobe Acrobat. If the file remains unreadable, clear your browser cache and re-download from your transaction history."
+  },
+  {
+    "question": "Does SSM e-Info provide information on companies registered in Labuan?",
+    "answer": "No. Labuan companies are regulated by the Labuan Financial Services Authority (Labuan FSA). SSM e-Info only covers entities registered in West Malaysia, Sabah, and Sarawak."
+  },
+  {
+    "question": "What is the 'Audit Firm Profile' document?",
+    "answer": "This document contains registration details of audit firms, including the list of partners and the firm's current registration status with the Malaysian Institute of Accountants (MIA)."
+  },
+  {
+    "question": "Is it possible to purchase documents in bulk for research purposes?",
+    "answer": "For bulk data or customized corporate information sets, you must contact the SSM Marketing and Business Development Division directly rather than using the e-Info portal."
+  },
+  {
+    "question": "Can I pay for SSM e-Info documents using a credit card?",
+    "answer": "Yes, the portal accepts credit/debit cards (Visa/Mastercard) and online banking (FPX) through various Malaysian banks."
+  },
+  {
+    "question": "Does the Company Profile list the company's bank account numbers?",
+    "answer": "No. For security and privacy reasons, bank account numbers are not part of the public records filed with SSM."
+  },
+  {
+    "question": "What is the 'Business Info' document compared to a 'Business Profile'?",
+    "answer": "They are often used interchangeably, but the Profile is the comprehensive extract containing all current registration details, ownership, and address history."
+  }
+]

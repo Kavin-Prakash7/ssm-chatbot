@@ -1,0 +1,216 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SSM eInfo Assistant V2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="top-nav">
+        <div class="brand">
+          <span class="brand-dot"></span>
+          <div>
+            <h1>SSM eInfo</h1>
+            <p>AI Document Intelligence</p>
+          </div>
+        </div>
+        <nav class="nav-links">
+          <a href="#smart-search">Search</a>
+          <a href="#pricing-showcase">Pricing</a>
+          <a href="#assistant">Assistant</a>
+        </nav>
+        <a href="/checkout" class="nav-cart">
+          <span>Cart</span>
+          <strong id="nav-cart-count">0</strong>
+        </a>
+      </header>
+
+      <main>
+        <section class="hero" id="assistant">
+          <div class="hero-shell">
+            <div class="hero-copy">
+              <div class="hero-badge">Deterministic • Multilingual • Commerce Ready</div>
+              <h2>Search entities. Discover documents. Checkout intelligently.</h2>
+              <p>One assistant unifies entity intelligence, CTC/Non-CTC recommendations, and payment-ready workflows.</p>
+              <div class="hero-search" id="smart-search">
+                <input id="hero-search-input" type="text" placeholder="Try Nimbus Holdings or Amanah Bank" />
+                <button id="hero-search-btn">Start Smart Search</button>
+              </div>
+              <div class="hero-actions">
+                <button class="primary-hero-btn" id="cta-start-assistant">Start Assistant</button>
+                <button class="ghost" id="cta-explore-docs">Explore Documents</button>
+              </div>
+              <div class="hero-signals">
+                <div>
+                  <span>4 divisions</span>
+                  <p>Company · Business · Bank · LLP</p>
+                </div>
+                <div>
+                  <span>CTC + Non-CTC</span>
+                  <p>Curated pricing pairs</p>
+                </div>
+                <div>
+                  <span>Cart synced</span>
+                  <p>Checkout in minutes</p>
+                </div>
+              </div>
+            </div>
+            <div class="hero-visual">
+              <div class="intelligence-card">
+                <div class="card-head">
+                  <div>
+                    <p>Live AI orchestration</p>
+                    <h3>Entity · Documents · Cart</h3>
+                  </div>
+                  <div class="live-pill"><span></span>Active</div>
+                </div>
+                <ul class="card-stack">
+                  <li>
+                    <span class="dot"></span>
+                    <div>
+                      <strong>Entity detected</strong>
+                      <small>Division aware routing engaged</small>
+                    </div>
+                    <em>instant</em>
+                  </li>
+                  <li>
+                    <span class="dot"></span>
+                    <div>
+                      <strong>Documents curated</strong>
+                      <small>CTC & Non-CTC with pricing</small>
+                    </div>
+                    <em>synced</em>
+                  </li>
+                  <li>
+                    <span class="dot"></span>
+                    <div>
+                      <strong>Cart prepared</strong>
+                      <small>Totals mirrored to checkout</small>
+                    </div>
+                    <em>ready</em>
+                  </li>
+                </ul>
+                <button class="ghost" id="hero-open-assistant">Open Assistant</button>
+              </div>
+              <div class="signal-card">
+                <p>Commerce sync</p>
+                <h4>Flows locked • No hijack</h4>
+                <span>LLM support stays conversational</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="feature-deck" id="pricing-showcase">
+          <div class="section-head minimal">
+            <span>Premium capabilities</span>
+            <h3>Everything required for deterministic document commerce.</h3>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon">🔎</div>
+              <h4>Smart Entity Search</h4>
+              <p>Adaptive routing across company, bank, business, and LLP flows with multilingual prompts.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon">🗂️</div>
+              <h4>Guided Document Discovery</h4>
+              <p>Purpose-aware CTC + Non-CTC recommendations with preview, add-to-cart, and flow locking.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon">💳</div>
+              <h4>Intelligent Checkout</h4>
+              <p>Synced cart totals, elegant cart UI, and direct checkout for deterministic payments.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="chat-toggle" id="chat-toggle">
+      <span>Assistant</span>
+      <div class="status-pill">
+        <span></span> Online
+      </div>
+    </div>
+
+    <div class="chatbot-window" id="chatbot">
+      <div class="chatbot-header">
+        <div class="chatbot-presence">
+          <div class="ai-badge" aria-hidden="true">
+            <span>AI</span>
+          </div>
+          <div class="presence-copy">
+            <h3>SSM eInfo Assistant</h3>
+            <p class="presence-status"><span class="status-dot"></span> Online • Fast response</p>
+          </div>
+        </div>
+        <div class="chatbot-actions">
+          <button class="chatbot-cart" id="chatbot-cart-button" type="button">
+            <div class="cart-pill-icon" aria-hidden="true">🛒</div>
+            <div class="cart-pill-meta">
+              <span>Cart</span>
+              <div class="cart-pill-values">
+                <strong id="chatbot-cart-count">0</strong>
+                <em id="chatbot-cart-total">RM 0</em>
+              </div>
+            </div>
+          </button>
+          <button class="collapse" id="chat-collapse" type="button">–</button>
+        </div>
+      </div>
+      <aside class="cart-panel" id="cart-panel">
+        <header class="cart-header">
+          <div>
+            <h3>Cart Summary</h3>
+            <p>Prepare your SSM eInfo checkout</p>
+          </div>
+          <button class="cart-close" id="cart-close">×</button>
+        </header>
+        <div class="cart-body" id="cart-items"></div>
+        <div class="cart-footer">
+          <div class="cart-totals">
+            <div>
+              <span>Non-CTC total</span>
+              <strong id="cart-total-non">RM 0</strong>
+            </div>
+            <div>
+              <span>CTC total</span>
+              <strong id="cart-total-ctc">RM 0</strong>
+            </div>
+          </div>
+          <div class="cart-actions">
+            <button class="secondary" id="cart-continue">Continue Browsing</button>
+            <button class="primary" id="cart-checkout">Open Full Cart</button>
+          </div>
+        </div>
+      </aside>
+      <div class="chatbot-body">
+        <div class="chatbot-messages" id="chat-messages"></div>
+        <button class="chat-scroll-top" id="chat-scroll-top" aria-label="Scroll to top">
+          <span>↑</span>
+        </button>
+      </div>
+      <div class="chatbot-input-area">
+        <div class="input-shell">
+          <input id="chat-input" type="text" placeholder="Ask about documents, loans, or companies" />
+          <button id="chat-send" type="button">Send</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="toast-container" id="toast-container"></div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
+
